@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("genshin.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 24px;
+    padding-top: 16px;
+    height: 340px;
+    width: 372px;
+
+}
+
+input
+{
+    border-radius: 4px;
+    border: solid;
+}
+
+.img_twitter
+{
+    height: 44px;
+}
+
+.main_button
+{
+    background-color: rgb(59, 59, 59);
+    color: rgb(237, 206, 150);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.side_button
+{
+    display: flex;
+}
+
+.form_mihoyo_logo
+{
+    height: 40px;
+}
+
+.form_header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midia_button
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.midia_button img{
+    width: 44px;
+    height: 44px;
+}
+
+.midia_button.twitter
+{
+    gap: 8px;
+}
+
+.midia_button.facebook
+{
+    gap: 8px;
+}
+.footer_div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.utility_div
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.utility_button
+{   
+    color: #c5b430;
+    background: transparent
+}
+
+.midia_background
+{
+    background: transparent
+}
+
+.close_button
+{
+    background: transparent;
+    width: 12px;
+    font-size: 20px;
+}
+
+.close_button_location
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.div:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
